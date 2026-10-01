@@ -14,7 +14,7 @@ def method_1 ():
             roll.append( random.randint(1,6))
         roll.sort()
         rolls.append( sum(roll[1:]))
-    print("Here's your stats. Thanks bye!", rolls)
+    print("Here's your stats. You can use them in any order. Thanks bye!\n", rolls)
 
 def method_2 ():
     rolls = []
@@ -28,7 +28,7 @@ def method_2 ():
             roll.append( random.randint(1,6))
         rolls.append( sum(roll))
     rolls.sort()
-    print("Here's your stats. Thanks bye!",rolls[6:11])
+    print("Here's your stats. You can use them in any order. Thanks bye!\n",rolls[6:11])
 
 def method_3 ():
     rolls = []
